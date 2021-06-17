@@ -1,0 +1,16 @@
+.tradeContainer {
+  width: 60%;
+  height: 600px;
+  overflow-y: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tradeCard {
+  padding: 10px;
+  & > span {
+    &:first-child {
+      padding-right: 10px;
+    }
+  }
+}

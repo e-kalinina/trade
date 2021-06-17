@@ -1,0 +1,21 @@
+.input {
+  &__field {
+    height: 40px;
+    width: 180px;
+    border: 2px solid #318ff5;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  &__label {
+    font-size: 16px;
+    padding-right: 5px;
+  }
+
+  &__error {
+    color: red;
+    font-size: 12px;
+  }
+}
