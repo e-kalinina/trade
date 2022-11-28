@@ -7,6 +7,7 @@
       "esnext"
     ],
     "allowJs": true,
+    "outDir": "./dist",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -17,8 +18,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "sourceMap": true,
   },
   "include": [
     "src"
